@@ -1,0 +1,13 @@
+body{
+    width: 95%;
+    height: 100%;
+ 
+}
+.container  {
+    margin: 0 auto;
+width: 50%;
+height: 50%;
+}
+.weather{
+    text-align: center;
+}
