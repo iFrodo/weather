@@ -8,7 +8,12 @@ fetch(query).then((response) => {
 }).then((data) => {
     console.log(data)
     console.log(data.current.temp_c)
-    document.querySelector('.weather').innerHTML = `Температура в ${data.location.name}: ${data.current.temp_c} C`
+    document.querySelector('.weather__temp').innerHTML = `Температура в ${data.location.name}: ${data.current.temp_c} C`
+    document.querySelector('.weather__wind').innerHTML= `Скорость ветра: ${Math.ceil(data.current.wind_kph / 3.6)}м/c (${data.current.wind_kph} км/ч)`
+    document.querySelector('.weather__humidity').innerHTML = `Влажность: ${data.current.humidity}%`
+    document.querySelector('.weather__condition').innerHTML = data.current.condition.text
+    // const img = document.createElement('img').setAttribute('src',`'https:${data.current.condition.icon}'`)
+    console.log(document.querySelector('.weather__ico').src = data.current.condition.icon)
 })
 
 // const Http = new XMLHttpRequest();
