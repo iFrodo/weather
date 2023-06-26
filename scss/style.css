@@ -1,17 +1,29 @@
-body{
+body {
     width: 95%;
     height: 100%;
     font-family: cursive;
- 
+
 }
-.container  {
+
+.container {
     margin: 0 auto;
-width: 50%;
-height: 50%;
+    width: 50%;
+    height: 50%;
 }
-.title__main{
+
+.title__main {
     text-align: center;
 }
-.weather{
+
+.weather {
     text-align: center;
+    background: aliceblue;
+    border-radius: 0 20px;
 }
+
+/* .weather div{
+    margin-bottom: 5px;
+} */
+/* .weather:nth-child(nth){
+    margin-bottom: 10px;
+} */
