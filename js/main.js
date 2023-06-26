@@ -1,6 +1,6 @@
 const apiKey ='42d632e68eef4abc9ae151808232006';
 // http://api.weatherapi.com/v1/current.json?key=<YOUR_API_KEY>&q=London
-const query = 'http://api.weatherapi.com/v1/current.json?key=42d632e68eef4abc9ae151808232006&q=Simferopol&aqi=no'
+const query = 'https://api.weatherapi.com/v1/current.json?key=42d632e68eef4abc9ae151808232006&q=Simferopol&aqi=no'
 
 
 fetch(query).then((response) => {
