@@ -7,8 +7,16 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 50%;
+    width: 15%;
     height: 50%;
+}
+.container1{
+    margin:0 auto;
+    width: 31%;
+    height: 50%;   
+}
+.title1{
+    text-align: center;
 }
 
 .title__main {
