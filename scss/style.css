@@ -1,7 +1,7 @@
 body {
     width: 95%;
     height: 100%;
-    font-family: cursive;
+    font-family: 'Recursive', sans-serif;
 
 }
 
@@ -28,7 +28,7 @@ body {
     background: aliceblue;
     border-radius: 0 20px;
 }
-@media (min-device-width: 320px) and (max-device-width: 568px) {
+@media (min-device-width: 320px) and (max-device-width: 768px) {
     .container{
         width: 90%;
     };
