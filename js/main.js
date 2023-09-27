@@ -97,5 +97,15 @@ function arrayRandElement(arr) {
     document.querySelector('.title1').innerHTML = ` ${arr[rand]} `
     // return arr[rand];
 }
+let ip = `https://api.ipify.org/?format=json`
+fetch(ip).then((response) => {
+    return response.json()
+}).then((data) => {
+    console.log(data)
+    document.querySelector('.ip').innerHTML =  `${data.ip} `
+
+
+})
+
 
 console.log(arrayRandElement(facts))
