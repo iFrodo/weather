@@ -7,12 +7,12 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 15%;
+    width: 15rem;
     height: 50%;
 }
 .container1{
     margin:0 auto;
-    width: 31%;
+    width: 31rem;
     height: 50%;   
 }
 .title1{
@@ -30,13 +30,14 @@ body {
 }
 @media (min-device-width: 320px) and (max-device-width: 768px) {
     .container{
-        width: 90%;
+        width: 25rem;
     };
     .container1{
-        width: 100%;
+        width: 25rem;
     }
 
 }
+
 
 /* .weather div{
     margin-bottom: 5px;
