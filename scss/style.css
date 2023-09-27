@@ -28,6 +28,15 @@ body {
     background: aliceblue;
     border-radius: 0 20px;
 }
+@media (min-device-width: 320px) and (max-device-width: 568px) {
+    .container{
+        width: 90%;
+    };
+    .container1{
+        width: 100%;
+    }
+
+}
 
 /* .weather div{
     margin-bottom: 5px;
